@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGray">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:text="@string/nav_services"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:gravity="center" />
+    </LinearLayout>
+    <ExpandableListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_height="0dp"
+        android:id="@+id/expandableListViewSer"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id_home" />
+</LinearLayout>

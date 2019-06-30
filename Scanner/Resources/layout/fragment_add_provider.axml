@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGray"
+    android:padding="10dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/editTextProvider"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/darkGray"
+        android:hint="@string/fragment_provider_name"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:gravity="center"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp">
+        <EditText
+            android:inputType="phone"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:id="@+id/editTextPrefix"
+            android:background="@android:drawable/edit_text"
+            android:hint="@string/fragment_prefix"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkGray"
+            android:textSize="14sp" />
+        <TextView
+            android:text="@string/fragment_chargeNumber"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/darkGray" />
+        <EditText
+            android:inputType="phone"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:id="@+id/editTextSuffix"
+            android:background="@android:drawable/edit_text"
+            android:textColorHint="@color/darkGray"
+            android:hint="@string/fragment_suffix"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <TextView
+        android:text="@string/fragment_ex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:gravity="center"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginEnd="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:text="*123* "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:textColor="@color/darkGray" />
+        <TextView
+            android:text="4632-8432-9743-9329"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/darkGray" />
+        <TextView
+            android:text=" #"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:textColor="@color/darkGray" />
+    </LinearLayout>
+    <Button
+        android:text="@string/fragment_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonAdd"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold" />
+</LinearLayout>

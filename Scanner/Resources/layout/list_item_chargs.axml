@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:background="@color/darkGray"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:text="@string/chargs_provider"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewProvider"
+            android:textColor="@color/white"
+            android:gravity="center" />
+        <TextView
+            android:text="@string/chargs_date"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewDate"
+            android:textColor="@color/white"
+            android:gravity="center" />
+        <TextView
+            android:text="@string/chargs_number"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewnumber"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:gravity="center" />
+    </LinearLayout>
+</LinearLayout>

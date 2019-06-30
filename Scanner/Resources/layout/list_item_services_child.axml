@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:padding="10dp">
+        <ImageView
+            android:src="@drawable/ic_call"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageViewCall" />
+        <TextView
+            android:text="مصطغب "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewDetails"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/linearLayoutLine"
+        android:background="@color/yellow" />
+</LinearLayout>

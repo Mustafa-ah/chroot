@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="interstital_ad_unit_id_home">ca-app-pub-7735761310721955/8116111326</string>
+  <string name="banner_ad_unit_id_home">ca-app-pub-7735761310721955/2367292326</string>
+  <string name="banner_ad_unit_id_setting">ca-app-pub-7735761310721955/2323307710</string>
+  <string name="banner_ad_unit_id_camera">ca-app-pub-7735761310721955/5884699658</string>
+  <string name="ApplicationName">Chroot</string>
+  <string name="CopiedToClipbord">Copied to clipbord</string>
+
+  <string name="undoDelet">Undo Delete</string>
+  <string name="undo">Undo</string>
+
+  <string name="drawer_open">Open</string>
+  <string name="drawer_close">Close</string>
+  <string name="fragment_provider_name">Provider Name</string>
+  <string name="fragment_prefix">Prefix  </string>
+  <string name="fragment_suffix">Suffix </string>
+  <string name="fragment_ex">Ex: </string>
+  <string name="fragment_chargeNumber">Charge Number</string>
+  <string name="fragment_add">Add</string>
+  <string name="fragment_msg">Please add Provider name</string>
+
+  <string name="setting_dail">How to dial : </string>
+  <string name="setting_direct">Direct Dial </string>
+  <string name="setting_showfirst">Show number </string>
+  <string name="setting_show_RedBox">Show Red Box while charging</string>
+
+  <string name="nav_history">History</string>
+  <string name="nav_setting">Setting </string>
+  <string name="nav_share">Share </string>
+  <string name="nav_services">Services </string>
+
+  <string name="home_scan">Scan </string>
+  <string name="home_chose">Choose provider</string>
+  <string name="home_ok">OK</string>
+  <string name="home_add_to_list">Add Chroot to list</string>
+  <string name="home_dont_show_agian">Do not show again</string>
+  <string name="home_goto_setting">Go to settings</string>
+  <string name="home_setting_msg">Chroot requires to be enabled/added in the list to function properly.</string>
+
+  <string name="chargs_provider">Provider</string>
+  <string name="chargs_number">Number</string>
+  <string name="chargs_date">Date</string>
+
+  <string name="cam_note">Scratch the card and put it on front of the camera</string>
+  <string name="cam_lowStorage">Low Storage, delete some files</string>
+  <string name="cam_Detector_not_ready">Detector not ready</string>
+  
+</resources>

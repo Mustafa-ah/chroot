@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGray">
+    <TextView
+        android:text="@string/setting_dail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textDirection="locale" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupDial"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:textDirection="locale"
+        android:layout_weight="1">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/setting_direct"
+            android:id="@+id/radioButtondirect"
+            android:textColor="@color/white"
+            android:buttonTint="#ffffff00" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_showfirst"
+            android:id="@+id/radioButtonShow"
+            android:textColor="@color/white"
+            android:buttonTint="#ffffff00" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/linearLayoutLine1"
+            android:background="@color/lightGray"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+        <CheckBox
+            android:text="@string/setting_show_RedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBoxRed"
+            android:textColor="@color/white"
+            android:buttonTint="#ffffff00"/>
+    </RadioGroup>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="MEDIUM_RECTANGLE"
+        ads:adUnitId="@string/banner_ad_unit_id_setting"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

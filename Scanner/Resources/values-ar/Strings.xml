@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="interstital_ad_unit_id_home">ca-app-pub-7735761310721955/8116111326</string>
+  <string name="banner_ad_unit_id_home">ca-app-pub-7735761310721955/2367292326</string>
+  <string name="banner_ad_unit_id_setting">ca-app-pub-7735761310721955/2323307710</string>
+  <string name="banner_ad_unit_id_camera">ca-app-pub-7735761310721955/5884699658</string>
+  <string name="ApplicationName">كروت</string>
+  <string name="CopiedToClipbord">تم النسخ الى الحافظة</string>
+
+  <string name="undoDelet">تراجع عن الحذف</string>
+  <string name="undo">تراجع</string>
+
+  <string name="drawer_open"> </string>
+  <string name="drawer_close"> </string>
+  <string name="fragment_provider_name">اسم الشركة</string>
+  <string name="fragment_prefix">قبل الكود</string>
+  <string name="fragment_suffix">بعد الكود </string>
+  <string name="fragment_ex">مثال:</string>
+  <string name="fragment_chargeNumber">رقم الكرت</string>
+  <string name="fragment_add">إضافة</string>
+  <string name="fragment_msg">اكتب اسم الشركة</string>
+
+  <string name="setting_dail">كيفية الاتصال : </string>
+  <string name="setting_direct">اتصال مباشر </string>
+  <string name="setting_showfirst">عرض اولا </string>
+  <string name="setting_show_RedBox">اظهار مربع احمر عند الشحن </string>
+  
+  <string name="nav_history">المحفوظات </string>
+  <string name="nav_setting">الاعدادات </string>
+  <string name="nav_share">مشاركة </string>
+  <string name="nav_services">الخدمات </string>
+
+  <string name="home_scan">شــحن </string>
+  <string name="home_chose">اختر شركة </string>
+  <string name="home_ok">موافق</string>
+  <string name="home_add_to_list">اضافه الى قائمة التطبيقات</string>
+  <string name="home_dont_show_agian">   لا تذكرنى مرة اخرى   </string>
+  <string name="home_goto_setting">السماح للتطبيق</string>
+  <string name="home_setting_msg">الرجاء السماح للتطبيق بالتشغيل التلقائى لاداء افضل.</string>
+
+  <string name="chargs_provider">الشركة </string>
+  <string name="chargs_number">الرقم</string>
+  <string name="chargs_date">التاريخ</string>
+
+  <string name="cam_note">اخدش الكارت وضعه امام الكاميرا</string>
+  <string name="cam_lowStorage">مساحة التخزين منخفضة، قم بحذف بعض الملفات</string>
+  <string name="cam_Detector_not_ready">الكاميرا غير مستعده</string>
+  
+</resources>

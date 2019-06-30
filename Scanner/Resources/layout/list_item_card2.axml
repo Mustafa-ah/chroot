@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/darkGray"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageViewSelected"
+            android:scaleType="centerCrop"
+            android:src="@drawable/unselected"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:text="Caption"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1" />
+        <ImageView
+            android:src="@drawable/move"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:id="@+id/imageViewMove"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp" />
+    </LinearLayout>
+</LinearLayout>
